@@ -5,5 +5,6 @@ contract Electricity {
 
     constructor() public {
         retailer = msg.sender;
+        
     }
 }
