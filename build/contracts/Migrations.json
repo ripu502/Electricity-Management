@@ -890,12 +890,12 @@
     "1593547828379": {
       "events": {},
       "links": {},
-      "address": "0x227ce87E2e76236819187Ea2AF385AEE6A485460",
-      "transactionHash": "0x1a968c0a4557e30368ec5b497df45f6fba48215ab43cb19770bc14f1e39abf78"
+      "address": "0x2B22E5Cd350a5BAb2a51f3d47f71f0fdac58B23C",
+      "transactionHash": "0x7972e9d53ad94a2e3ec521bf005716b487ae8fdc3947dbf6f26758f25ecf0a16"
     }
   },
   "schemaVersion": "3.2.0",
-  "updatedAt": "2020-06-30T20:35:20.440Z",
+  "updatedAt": "2020-06-30T21:24:38.755Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

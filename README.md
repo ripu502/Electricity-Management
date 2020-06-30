@@ -1,10 +1,16 @@
 # Electricity-Management
 
 ### Making the play with console
+
 1. `truffle console`
 2. Taking the deployed contract instance for the play
-`electric = await Electricity.deployed()`
+   `electric = await Electricity.deployed()`
 3. Getting the address of the deployed contract
-`electric.address`
+   `electric.address`
 4. Getting the address of the Retailer
-`electric.retailer()`
+   `electric.retailer()`
+5. Balance of the contract 
+`temp = await electric.contractBalance()
+temp.toNumber()
+`
+
