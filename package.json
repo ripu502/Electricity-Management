@@ -1,5 +1,28 @@
 {
-    "dependencies": {
-        "web3": "^1.2.9"
-    }
+  "name": "Electricity-Management",
+  "version": "1.0.0",
+  "description": "### Making the play with console",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ripu502/Electricity-Management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ripu502/Electricity-Management/issues"
+  },
+  "homepage": "https://github.com/ripu502/Electricity-Management#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4",
+    "truffle": "^5.1.33",
+    "truffle-contract": "^4.0.31"
+  }
 }

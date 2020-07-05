@@ -18,9 +18,9 @@ contract Electricity {
         return b;
     }
 
-    function addCustomer(address _cust) public payable returns (bool) {
+    function addCustomer(address _cust) public payable returns (address) {
         custAdd2Bal[_cust] = _cust.balance;
-        return true;
+        return _cust;
     }
 
     function gettingCustBal(address _add) public view returns (uint256) {
