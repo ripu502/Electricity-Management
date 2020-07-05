@@ -51,3 +51,7 @@
 	// getting new electricity balance
 	electric.getElec('0x5c83fa6675e9bd1ae19406bb8beeff5ad7413c34')
 
+##  Some usefull
+
+     web3.utils.fromWei('100', 'ether')
+	 web3.utils.toWei('10',"ether")
